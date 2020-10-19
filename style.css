@@ -1,0 +1,126 @@
+body {
+	width: 80%;
+	background-color: black;
+	color: white;
+	font-size: 87.5%;
+	font-family: Arial, 'Lucid Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	
+}
+
+a:hover, a:active {
+	
+}
+
+.par {
+	margin-right: -50%;
+	top: 50%;
+    left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	opacity: 0.01;
+}
+
+.close {
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+.wide {
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+.body {
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+}
+
+.mainheader img {
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  overflow: hidden;
+}
+
+.tab {
+	overflow: hidden;
+	border: 1px solid #23272a;
+	background-color: #23272a;
+
+	position: fixed;
+	top: 0px;
+}
+
+.tab button {
+	display: inline-block;
+	background-color: #23272a;
+	float: right;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	/*padding: 10px 16px;*/
+	/*margin-left: 75px;
+	margin-right: 75px;*/
+	transition: 0.5s;
+	z-index: 99.99%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	width: 80px;
+	height: 32px;
+	font-size: 87.5%;
+
+}
+
+.button div {
+	opacity: 0;
+	box-shadow: 0 0 5px #23272a, 0 0 20px #23272a, 0 0 30px #23272a, 0 0 40px #23272a, 0 0 50px #23272a,  0 0 60px #23272a,  0 0 70px #23272a, 0 0 80px #23272a,  0 0 90px #23272a,  0 0 100px #23272a, 0 0 110px #23272a, 0 0 120px #23272a,  0 0 130px #23272a, 0 0 140px #23272a, 0 0 150px #23272a, 0 0 160px #23272a, 0 0 170px #23272a;
+	background-color: #23272a;
+	transition: 0.5s;
+}
+
+nav div {
+	background-color: #7289da;
+	box-shadow: 0 0 5px #7289da, 0 0 20px #7289da, 0 0 30px #7289da, 0 0 40px #7289da, 0 0 50px #7289da,  0 0 60px #7289da,  0 0 70px #7289da, 0 0 80px #7289da,  0 0 90px #7289da,  0 0 100px #7289da, 0 0 110px #7289da, 0 0 120px #7289da,  0 0 130px #7289da, 0 0 140px #7289da, 0 0 150px #7289da, 0 0 160px #7289da, 0 0 170px #7289da;
+    transition: 0.5s;
+}
+
+.tabbutton button {
+	background-color: #23272a;
+	transition: 0.5s;
+}
+
+.tabbutton button:hover {
+	box-shadow: 0 0 5px #7289da, 0 0 20px #7289da, 0 0 30px #7289da, 0 0 40px #7289da;
+    background-color: #7289da;
+}
+
+
+.tab button.active {
+	background-color: #ccc;
+}
+
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
