@@ -98,8 +98,8 @@ a:hover, a:active {
 }
 
 nav div {
-	background-color: #7289da;
-	box-shadow: 0 0 5px #7289da, 0 0 20px #7289da, 0 0 30px #7289da, 0 0 40px #7289da, 0 0 50px #7289da,  0 0 60px #7289da,  0 0 70px #7289da, 0 0 80px #7289da,  0 0 90px #7289da,  0 0 100px #7289da, 0 0 110px #7289da, 0 0 120px #7289da,  0 0 130px #7289da, 0 0 140px #7289da, 0 0 150px #7289da, 0 0 160px #7289da, 0 0 170px #7289da;
+	background-color: #69152e;
+	box-shadow: 0 0 5px #69152e, 0 0 20px #69152e, 0 0 30px #69152e, 0 0 40px #69152e, 0 0 50px #69152e,  0 0 60px #69152e,  0 0 70px #69152e, 0 0 80px #69152e,  0 0 90px #69152e,  0 0 100px #69152e, 0 0 110px #69152e, 0 0 120px #69152e,  0 0 130px #69152e, 0 0 140px #69152e, 0 0 150px #69152e, 0 0 160px #69152e, 0 0 170px #69152e;
     transition: 0.5s;
 }
 
@@ -109,8 +109,8 @@ nav div {
 }
 
 .tabbutton button:hover {
-	box-shadow: 0 0 5px #7289da, 0 0 20px #7289da, 0 0 30px #7289da, 0 0 40px #7289da;
-    background-color: #7289da;
+	box-shadow: 0 0 5px #69152e, 0 0 20px #69152e, 0 0 30px #69152e, 0 0 40px #69152e;
+    background-color: #69152e;
 }
 
 
