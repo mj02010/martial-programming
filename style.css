@@ -3,7 +3,7 @@ body {
 	background-color: black;
 	color: white;
 	font-size: 87.5%;
-	font-family: Arial, 'Lucid Sans Unicode';
+	font-family: Arial, "Lucid Sans Unicode";
 	line-height: 1.5;
 	text-align: left;
 }
@@ -52,9 +52,9 @@ a:hover, a:active {
 }
 
 #myVideo {
-  position: relative;
-  right: 0;
-  bottom: 0;
+  position: fixed;
+  right: -100px;
+  bottom: 0px;
   min-width: 100%;
   min-height: 100%;
   z-index: -100;
@@ -62,7 +62,7 @@ a:hover, a:active {
 }
 
 .tab {
-	overflow: hidden;
+	
 	border: 1px solid #23272a;
 	background-color: #23272a;
 
@@ -73,7 +73,6 @@ a:hover, a:active {
 .tab button {
 	display: inline-block;
 	background-color: #23272a;
-	float: right;
 	border: none;
 	outline: none;
 	cursor: pointer;
@@ -105,12 +104,14 @@ nav div {
 
 .tabbutton button {
 	background-color: #23272a;
+	z-index: 1;
 	transition: 0.5s;
 }
 
 .tabbutton button:hover {
 	box-shadow: 0 0 5px #69152e, 0 0 20px #69152e, 0 0 30px #69152e, 0 0 40px #69152e;
     background-color: #69152e;
+    z-index: 2;
 }
 
 
