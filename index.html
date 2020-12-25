@@ -6,76 +6,95 @@
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="style.css" type="text/css"/>
 		<link rel="shortcut icon" href="martialicon.png" type="image/x-icon">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	
 	<body class="body" oncontextmenu="return false;" style="user-select: none;">
 		<script type="text/javascript">
-			document.addEventListener('mousemove', function(e) {
-			  let circle = document.getElementById('circle');
-			  circle.style.left = e.pageX+0 + 'px';
-			  circle.style.top = e.pageY+0 + 'px';
+			document.addEventListener("mousemove", function(e) {
+			  let circle = document.getElementById("circle");
+			  circle.style.left = e.pageX+0 + "px";
+			  circle.style.top = e.pageY+0 + "px";
 			});
 		</script>
 
 		<center><!--GAYJ9F-->
-			<nav class="tab" style="background-color: #23272a; width:100%; height: 85px; z-index: 10" data-spy="affix" data-offset-top="50">
-				<a class="tabbutton" href="https://ota-deity.github.io/martial-law/index.html">
-					<button class="button" style="overflow: hidden; border: 2.5px solid #69152e; margin-top: 20px; color: white; font-size: 18px; border-radius: 20px; padding-left: 0px; padding-right: 0px; padding-top: 2.5px; padding-bottom: 2.5px; font-size: 18px; height: 40px; width: 110px; margin-left: 350px; float: left;">home</button>
-				</a>
+			<nav class="tab" style="background-color: #23272a; width:100%; height: 75px; z-index: 10" data-spy="affix" data-offset-top="50">
+				<section>
+					<a class="tabbutton" href="https://ota-deity.github.io/martial-law/index.html">
+						<button class="button" style="overflow: hidden; border: 2.5px solid #69152e; margin-top: 5px; color: white; font-size: 18px; border-radius: 20px; padding-left: 0px; padding-right: 0px; padding-top: 2.5px; padding-bottom: 2.5px; font-size: 18px; height: 35px; width: 65px;">home</button>
+					</a>
 
-				<a class="tabbutton" href="#docs.html">
-					<button class="button" style="overflow: hidden; border: 2.5px solid #69152e; margin-top: 20px; color: white; font-size: 18px; border-radius: 20px; padding-left: 0px; padding-right: 0px; padding-top: 2.5px; padding-bottom: 2.5px; font-size: 18px; height: 40px; width: 110px; margin-left: 27px; margin-top: 20px; float: left;">docs</button>
-				</a>
+					<a class="tabbutton" href="#docs.html">
+						<button class="button" style="overflow: hidden; border: 2.5px solid #69152e; margin-top: 20px; color: white; font-size: 18px; border-radius: 20px; padding-left: 0px; padding-right: 0px; padding-top: 2.5px; padding-bottom: 2.5px; font-size: 18px; height: 35px; width: 65px; z-index: 2; margin-right: 35px;">docs</button>
+					</a>
+					
+					<a class="tabbutton" href="https://discord.com/api/oauth2/authorize?client_id=767591261619748874&permissions=2146561271&scope=bot">
+						<button class="button" style="overflow: hidden; border: 2.5px solid #69152e; margin-top: 20px; color: white; font-size: 18px; border-radius: 20px; padding-left: 0px; padding-right: 0px; padding-top: 2.5px; padding-bottom: 2.5px; z-index: 1; font-size: 18px; height: 35px; width: 65px; z-index: 2; margin-left: 35px;">invite</button>
+					</a>
 
-				<img draggable="false" src="martialicon.png" style="height: auto; width: 75px; margin-top: 5px; float: middle; margin-left: -350px; margin-right: -350px;">
-				
-				<a class="tabbutton" href="https://discord.com/api/oauth2/authorize?client_id=767591261619748874&permissions=2146561271&scope=bot">
-					<button class="button" style="overflow: hidden; border: 2.5px solid #69152e; margin-top: 20px; color: white; font-size: 18px; border-radius: 20px; padding-left: 0px; padding-right: 0px; padding-top: 2.5px; padding-bottom: 2.5px; z-index: 1; font-size: 18px; margin-left: 25px; margin-right: 25px; height: 40px; width: 110px; float: right; margin-right: 350px;">invite</button>
-				</a>
+					<a class="tabbutton" href="https://discord.gg/4fyN8sm">
+						<button class="button" style="overflow: hidden; border: 2px solid #69152e; margin-top: 20px; color: white; font-size: 18px; border-radius: 20px; padding-left: 0px; padding-right: 0px; padding-top: 2.5px; padding-bottom: 2.5px; z-index: 1; font-size: 18px; height: 35px; width: 65px; z-index: 2;">join</button>
+					</a>
+				</section>
 
-				<a class="tabbutton" href="https://discord.gg/4fyN8sm">
-					<button class="button" style="overflow: hidden; border: 2px solid #69152e; margin-top: 20px; color: white; font-size: 18px; border-radius: 20px; padding-left: 0px; padding-right: 0px; padding-top: 2.5px; padding-bottom: 2.5px; z-index: 1; font-size: 18px; height: 40px; width: 110px; float: right; ">join</button>
-				</a>
+				<img draggable="false" src="martialicon.png" style="height: auto; width: 65px; margin-top: -50px; float: middle; z-index: -1;">
 			</nav>
 		</center>
 
 		<div class="header" style="z-index: 5">
 			<center>
-				<p class="wide" style="margin-bottom: -2px; margin-top: 100px; font-size: 45px; letter-spacing: 1.5px;">Martial Law</p>
+				<p class="wide" style="margin-bottom: -2px; margin-top: 100px; font-size: 45px; letter-spacing: 1.5px;">
+					Martial Law
+				</p>
 			</center>
 
-				<center><section class="post" style="width: 50%; margin-top: 15px; margin-bottom: 15px;">
-					<p style="letter-spacing: 1.5px;"></p>
-						<p class="wide" style="font-size: 30;">Martial Law is a work-in-progress Discord server and management bot that is consistently recieving updates from it's developer and collaborators.</p>
-						<p class="close" style="margin-bottom: 0px; font-size: 18px;"></p>
-						<table style="height: 5px;">
-							</th>
-						</tr>
-					</table>
-				</section></center>
-
-				<center>
-				<p class="wide" style="margin-bottom: -2px; margin-top: 100px; font-size: 30px; letter-spacing: 1.5px;">Notice</p>
+			<center>
+				<section class="post" style="width: 70%; margin-top: 15px; margin-bottom: 15px;">
+					<p class="wide" style="font-size: 30;">
+						Martial Law is a work-in-progress Discord server and management bot that is consistently recieving updates from it"s developer and collaborators.
+					</p>
+				</section>
 			</center>
 
-				<center><section class="post" style="width: 50%; margin-top: 15px; margin-bottom: 15px;">
-					<p style="letter-spacing: 1.5px;"></p>
-						<p class="wide" style="font-size: 30;">Expect downtime, I can't host the bot 24/7 so the bot will have consistent downtime from monday-friday 8:00am-4:10pm AEST</p>
-						<p class="close" style="margin-bottom: 0px; font-size: 18px;"></p>
-						<table style="height: 5px;">
-							</th>
-						</tr>
-					</table>
-				</section></center>
-			</div></div>
+			<center>
+				<p class="wide" style="margin-bottom: -2px; margin-top: 100px; font-size: 30px; letter-spacing: 1.5px;">
+					Notice
+				</p>
+			</center>
 
-			<video autoplay muted loop id="myVideo" style="float: middle; opacity: 0.25; margin-top: -600px; z-index: -1000;">
+			<center>
+				<section class="post" style="width: 70%; margin-top: 15px; margin-bottom: 15px;">
+					<p class="wide" style="font-size: 30;">
+						Expect downtime, I can't host the bot 24/7 so the bot will have consistent downtime from monday-friday 8:00am-4:10pm AEST
+					</p>
+				</section>
+			</center>
+
+			<style type="text/css">
+				.about-section {
+				  background-image: url(file:///C:/Users/jakes/nwcWebsitecity.png);
+				  height: auto ;
+				  width: 100%;
+				  position: fixed;
+				  left: 0;
+				  bottom: 0;
+				  color: white;
+				  font-family: "Josefin Sans", sans-serif;
+				  color: white;
+				  text-align: center;
+				  transform: rotate(180);
+				}
+			</style>
+
+			<br>	
+
+			<video autoplay muted loop id="myVideo" style="float: middle; opacity: 0.25; margin-top: -600px; z-index: -1000;" data-spy="affix" data-offset-top="50">
 				<source src="logo.mp4" type="video/mp4">
 			</video>
 
-			<footer>
-				<center><img draggable="false" src="creationstamp.png" style="height: auto; width: 250px;"></center>
-			</footer>	
+			<center>
+				<img draggable="false" src="creationstamp.png" style="height: auto; width: 250px;">
+			</center>
 	</body>
 </html>
